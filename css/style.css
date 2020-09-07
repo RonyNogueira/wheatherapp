@@ -1,0 +1,155 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bg{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+:root{
+    --cor-preta:#2b2b2b;
+    --cor-branca:#fff;
+    --cor-cinza:#A3B4BF;
+    --cor-preto-transparente:#0006;
+
+
+
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.f-w-b{
+    font-weight:500;
+}
+
+.f-30{
+    font-size: 30px;
+}
+.f-25{
+    font-size: 25px;
+}
+
+.f-20{
+    font-size: 20px;
+}
+
+.f-15{
+    font-size: 15px;
+}
+
+.f-12{
+    font-size: 12px;
+}
+
+.text-city{
+
+    color: var(--cor-branca);
+    font-size: 20px;
+
+}
+
+.temp{
+    font-size: 70px;
+}
+
+.temp> .cel{
+    display: inline-block;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ip-search{
+    border-radius: 0px;
+    background: #000000a3;
+    border: none;
+    color: var(--cor-branca);
+}
+
+.ip-search:focus{
+    box-shadow: none;
+}
+
+::placeholder {
+    color: #fff!important;
+    opacity: 1; /* Firefox */
+  }
+
+.ip-search:focus ::placeholder{
+    color: #000!important;
+    opacity: 1; /* Firefox */
+}
+
+.btn-search{
+    border: 1px solid #0000008a;
+    color: var(--cor-branca);
+    border-radius: 0;
+    font-size: 10px;
+}
+
+.img-search{
+    height: 15px;
+}
+
+.principal{
+    color:var(--cor-branca);
+    background: #00000078;
+    border-bottom: 2px solid #005680;
+    padding: 15px;
+}
+.box-date{
+    background: var(--cor-preto-transparente);
+    padding:10px;
+    color: #fff;
+    border-bottom: 2px solid #ff78008f;
+}
+
+.box-cel{
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+}
+
+.row-box{
+    background: #0000001c;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    padding:0 15px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000ad;
+    color: var(--cor-branca);
+    text-align: center;
+    height: 80px;
+ }
