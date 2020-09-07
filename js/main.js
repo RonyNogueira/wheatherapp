@@ -19,9 +19,10 @@ window.onload = function(){
 
 function getApi(){
       let local = ""
+      let key = "5dddcc87 "
       local = inputSearch.value  
      
-     let api = `https://api.hgbrasil.com/weather?key=d13f0800&city_name=${local},&format=json-cors`
+     let api = `https://api.hgbrasil.com/weather?key=${key}&city_name=${local},&format=json-cors`
 
      const myHeader = new Headers()
      myHeader.append("origin", "*")
