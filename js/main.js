@@ -24,7 +24,7 @@ function getApi(){
      let api = `https://api.hgbrasil.com/weather?key=d13f0800&city_name=${local},&format=json-cors`
 
 
-    fetch(api)
+    fetch(api,{mode: 'cors'})
             .then(response => response.json())
             .then(res => {
                
