@@ -21,7 +21,7 @@ function getApi(){
       let local = ""
       local = inputSearch.value  
      
-     let api = `https://api.hgbrasil.com/weather?key=d13f0800&city_name=${local},&format=json`
+     let api = `https://api.hgbrasil.com/weather?key=d13f0800&city_name=${local},&format=json-cors`
 
 
     fetch(api)
