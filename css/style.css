@@ -155,7 +155,7 @@ body{
  }
 
  /* mobile */
- @media screen and (min-width: 320px) and (max-width: 768px) { 
+ @media screen and (min-width: 320px) and (max-width: 767px) { 
 
     .principal{
         display: flex;
@@ -176,7 +176,19 @@ body{
         overflow-y: auto;
     }
 
+    .box{
+        flex-wrap: nowrap;
+    }
 
 
 
   }
+
+
+  @media screen and (min-width: 768px) and (max-width: 959px) { 
+
+    .pad-mobile{
+        padding: 0 25px;
+       }
+
+ }

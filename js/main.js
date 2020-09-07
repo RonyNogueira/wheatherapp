@@ -65,7 +65,7 @@ function getApi(){
 
             html += `    
         
-            <div class=" col-md-3 item text-center">
+            <div class="col-10 col-md-3 col-lg-3 item text-center">
     
             <div class="box-date">
         
