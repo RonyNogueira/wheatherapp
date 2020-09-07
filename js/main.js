@@ -93,4 +93,11 @@ btnSearch.addEventListener("click", function(){
     getApi()
 })
 
+inputSearch.addEventListener("keyup",function(e){
+     
+    const key = e.which || e.keyCode 
+    if (key == 13){
+        getApi()
+    }
 
+})
