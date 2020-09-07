@@ -70,8 +70,8 @@ function getApi(){
             <div class="box-date">
         
                 <p>${value.weekday} - ${value.date}</p>
-                <p>${value.max}<span class="box-cel">°C</span></p>
-                <p>${value.min}<span class="box-cel">°C</span></p>
+                <p>Max- ${value.max}<span class="box-cel">°C</span></p>
+                <p>Min- ${value.min}<span class="box-cel">°C</span></p>
         
             </div>
         
