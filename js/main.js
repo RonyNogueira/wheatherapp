@@ -23,7 +23,7 @@ function getApi(){
      
      let api = `https://api.hgbrasil.com/weather?key=d13f0800&city_name=${local},&format=json-cors`
 
-    const myHeader = new Headers()
+     const myHeader = new Headers()
      myHeader.append("origin", "*")
      const myInit = {method:"GET", headers: myHeader, mode: "cors"}
 
